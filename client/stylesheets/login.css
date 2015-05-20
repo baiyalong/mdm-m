@@ -1,15 +1,147 @@
-html{
-	height: 100%
+html {
+    height: 100%
 }
 
-body{
-	height: 100%
+body {
+    height: 100%
 }
 
-.h100{
-	height: 100%
+.h100 {
+    height: 100%
 }
 
-.h25{
-	height: 25%
+.h25 {
+    height: 25%
 }
+
+.h30 {
+    height: 30%;
+}
+
+.backgroundImage {
+    background: url("/images/login.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+/*
+* {
+	padding: 0px;
+	margin: 0px;
+}
+*/
+body {
+    background: #FFF;
+    width: 100%;
+}
+
+a {
+    color: #a79d9c;
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    height: 40px;
+    font-family: Arial, "微软雅黑";
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+.bj_into3 {
+    background: url(/images/dlk.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.bj_into3 ul {
+    width: 265px;
+    height: 165px;
+    margin-left: 181px;
+    margin-top: 27px;
+}
+
+.bj_into3 ul li {
+    height: 43px;
+    width: 267px;
+    text-align: center;
+}
+
+.bj_into3 ul li input.Username {
+    background: url(/images/Username.png) no-repeat;
+    width: 265px;
+    height: 43px;
+    border: none;
+    color: #90807e;
+    text-indent: 3.5em;
+    font-size: 14px;
+}
+
+.bj_into3 ul li input.password {
+    background: url(/images/Password.png) repeat-x;
+    margin-top: 17px;
+    height: 43px;
+    border: none;
+    color: #90807e;
+    text-indent: 3.5em;
+    width: 205px;
+    float: left;
+    font-size: 14px;
+}
+
+.bj_into3 ul li span a {
+    background: url(/images/login.png) no-repeat;
+    float: left;
+    line-height: 41px;
+    color: #fff;
+    text-align: center;
+    width: 61px;
+    height: 43px;
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+.bj_into3 ul li#mima {
+    float: left;
+    padding-top: 17px;
+    line-height: 30px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+.switchY {
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    background: url(/images/anniu.png) no-repeat left center;
+    text-indent: 3.5em;
+    color: #90807e;
+}
+
+.switchN {
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    background: url(/images/anniu2.png) no-repeat left center;
+    text-indent: 3.5em;
+    color: #90807e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
